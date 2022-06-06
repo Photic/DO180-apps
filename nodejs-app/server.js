@@ -1,6 +1,6 @@
-var createError = require('http-error');
+const createError = require('http-errors');
 
-var express = require('express');
+const  express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
